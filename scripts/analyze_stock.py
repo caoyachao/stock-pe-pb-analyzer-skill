@@ -438,24 +438,24 @@ class StockPEPBAnalyzer:
                 
                 if not pd.isna(pe_percentile):
                     if pe_percentile < 20:
-                        pe_pct_str += " 低估"
+                        pe_pct_str += " 🟢低估"
                     elif pe_percentile < 50:
-                        pe_pct_str += " 适中"
+                        pe_pct_str += " 🟡适中"
                     else:
-                        pe_pct_str += " 偏高"
+                        pe_pct_str += " 🔴偏高"
                 
                 if not pd.isna(pb_percentile):
                     if pb_percentile < 20:
-                        pb_pct_str += " 低估"
+                        pb_pct_str += " 🟢低估"
                     elif pb_percentile < 50:
-                        pb_pct_str += " 适中"
+                        pb_pct_str += " 🟡适中"
                     else:
-                        pb_pct_str += " 偏高"
+                        pb_pct_str += " 🔴偏高"
                 
                 print(f"{period_name:<10} {data_points:<10} {pe_curr_str:<12} {pe_pct_str:<20} {pb_curr_str:<12} {pb_pct_str:<20}")
         
         print("-" * 80)
-        print("水位说明: 低估(0-20%) | 适中(20-50%) | 偏高(>50%)")
+        print("水位说明: 🟢低估(0-20%) | 🟡适中(20-50%) | 🔴偏高(>50%)")
         
         print(f"\n📊 详细统计指标:")
         for period_name in ['10年', '5年', '3年']:
