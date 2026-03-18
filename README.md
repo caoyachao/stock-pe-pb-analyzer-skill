@@ -142,7 +142,7 @@ cd ~/.config/agents/skills/
 git clone https://github.com/caoyachao/stock-pe-pb-analyzer-skill.git stock-pe-pb-analyzer
 ```
 
-然后在 Kimi/OpenClaw 中可以直接调用：
+然后对话调用：
 ```
 分析贵州茅台的PE/PB历史水位
 ```
