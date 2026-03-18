@@ -144,7 +144,7 @@ git clone https://github.com/caoyachao/stock-pe-pb-analyzer-skill.git stock-pe-p
 
 然后对话调用：
 ```
-分析贵州茅台的PE/PB历史水位
+分析贵州茅台估值水位
 ```
 
 ## 📝 License
