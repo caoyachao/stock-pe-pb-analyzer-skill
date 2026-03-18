@@ -129,8 +129,12 @@ stock-pe-pb-analyzer-skill/
 4. **免责声明**: 本分析仅供参考，不构成投资建议。投资有风险，入市需谨慎。
 
 ## 🔧 作为 OpenClaw Skill 使用
+对话安装
+```
+安装skill: https://github.com/caoyachao/stock-pe-pb-analyzer-skill
+```
 
-将此仓库克隆到 OpenClaw 的 skills 目录：
+或将此仓库克隆到 OpenClaw 的 skills 目录：
 
 ```bash
 mkdir -p ~/.config/agents/skills/
